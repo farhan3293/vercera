@@ -515,3 +515,10 @@
     color: blue;
   }
 }
+h6{
+  font-size: 18px;
+  font-family: Poppins;
+  color: #fff;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
