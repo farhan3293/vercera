@@ -355,7 +355,7 @@ body {
 }
 
 .events-section {
-  margin-top: 10px;
+  margin-top: 40px;
   position: relative;
   display: flex;
   width: 80%;
@@ -387,7 +387,7 @@ body {
   width: 100%;
   margin: 12px 0px;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 12px;
   grid-row-gap: 12px;
 }
@@ -412,34 +412,7 @@ body {
   background-image: url("../assets/img5.jpg");
   grid-area: 2 / 7 / 3 / 9;
 }
-.div6 {
-  background-image: url("../assets/img6.jpg");
-  grid-area: 3 / 1 / 4 / 4;
-}
-.div7 {
-  background-image: url("../assets/img7.jpg");
-  grid-area: 3 / 4 / 4 / 6;
-}
-.div8 {
-  background-image: url("../assets/img8.jpg");
-  grid-area: 3 / 6 / 4 / 9;
-}
-.div9 {
-  background-color: magenta;
-  grid-area: 4 / 1 / 5 / 4;
-}
-.div10 {
-  background-color: crimson;
-  grid-area: 4 / 4 / 5 / 9;
-}
 
-.div11 {
-  display: none;
-}
-
-.div12 {
-  display: none;
-}
 
 .event-card {
   display: flex;
@@ -468,6 +441,7 @@ body {
   display: flex;
   height: 100vh;
   width: 80%;
+  margin-top: 40px;
   flex-direction: column;
   text-align: center;
   align-items: center;
